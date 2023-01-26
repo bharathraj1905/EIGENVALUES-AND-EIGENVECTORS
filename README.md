@@ -15,12 +15,16 @@ Using the np.linalg.eig(),  we get two results (first is eigenvalue and second i
 Printing the answer
 ## Program:
 ```py
+# EIGENVALUES-AND-EIGENVECTORS
+#Developed by: b.barathraj
+#Reference no: 22008848
 import numpy as np
 a=np.array([[4,2],[2,4]])
 values,vectors=np.linalg.eig(a)
 print(f"Eigen values are {values} and Eigen Vectors are {vectors}")
 ```
 ## Output:
-![output](/output.png)
+![eigen vector](https://user-images.githubusercontent.com/121490575/214908296-4f73c5ce-2271-4792-a29b-15ee81836b15.png)
+
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
